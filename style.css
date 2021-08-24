@@ -1,9 +1,10 @@
 #videoElement {
 	width: 105vw;
-	height: 105vh;
+	min-height: 105vh;
 	background-color: #666;
 	margin-top: -10px;
 	margin-left: -10px;
+    object-fit: cover;
 }
 
 .homescreen {
@@ -35,8 +36,4 @@
 
 body {
 	overflow: hidden;
-}
-
-video {
-    object-fit: cover;
 }
